@@ -1,2 +1,12 @@
 <h1>Create a new Pet</h1>
 
+<form action="/pets" method="POST">
+  <label>Name:</label>
+  <br></br>
+  <input type="text" name="pet[name]">
+  <br></br>
+
+  <label>Choose an existing Owner:</label>
+  <br></br>
+
+  <%@owners
